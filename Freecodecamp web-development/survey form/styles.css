@@ -1,0 +1,96 @@
+.title, .description {
+    padding-top: 0.5em;
+    text-align: center;
+    }
+  .description {
+    padding-bottom: 2em;
+  
+    }
+  div {
+    width: 80%;
+    margin: 0 auto;
+    
+    
+  }
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  input, select, textarea {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 1.75em;
+    }
+    fieldset:last-of-type {
+    border-bottom: 0;
+    }
+    
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+    display:
+  }
+  
+  input, textarea {
+    border: 1px solid #0a0a23;
+    color: black; 
+    }
+  form {
+    width: 90%;
+    background-color: rgba(127,127,127,0.55);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 60px;
+    max-width: 800px;
+    padding-top: 1em;
+    border-color: white;
+    }
+  #submit {
+    color: white;
+  }
+  
+  #submit:visited {
+    color: green;
+  }
+  
+  #submit:hover {
+    color: green;
+  }
+  #submit:active {
+    color: green;
+    }
+  input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: green;
+    border-color: white;
+    min-width: 300px;}
+    .textarea {
+      font-size: 0.9rem;
+    }
+  body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1; /* only works on positioned elements (position: absolute, position: relative, position: fixed, or position: sticky) and flex items (elements that are direct children of display:flex elements). */
+    background-image: url(https://images.unsplash.com/photo-1509233725247-49e657c54213?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+  }
+  body {
+    font-color: white;
+    font-family: Tahoma;
+    font-size: 16px;
+    color: white;
+  }
+  a {
+    color: white;
+  }
